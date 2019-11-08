@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+$primary: #005BA1;
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: SegoeUI;
+  src: url(assets/fonts/SegoeUI-Normal/latest.woff);
+}
+
+@font-face {
+  font-family: SegoeUI-Semibold;
+  src: url(assets/fonts/SegoeUI-Semibold/latest.woff);
+}
+
+@font-face {
+  font-family: SegoeUI-Semilight;
+  src: url(assets/fonts/SegoeUI-Semilight/latest.woff);
+}
+
+body {
+  font-family: SegoeUI;
+}
+
+nav {
+  font-family: SegoeUI-Semibold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: SegoeUI-Semilight;
+}

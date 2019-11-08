@@ -1,0 +1,14 @@
+<form [formGroup]="form" (submit)="runQuery()">
+    <div class="form-group">
+        <label>Query</label>
+        <textarea class="form-control" formControlName="query" rows="10"></textarea>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Query</button>
+    </div>
+</form>
+
+<ng-container *ngIf="resources">
+    <hr>
+    <pre>{{resources|json}}</pre>
+</ng-container>

@@ -1,0 +1,5 @@
+{
+    "connectionString": "AccountEndpoint=https://YOUR_NAME.documents.azure.com:443/;AccountKey=YOUR_KEY;",
+    "db": "YOUR_DB",
+    "collection": "YOUR_COLLECTION"
+}
